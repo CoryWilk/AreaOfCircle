@@ -1,0 +1,10 @@
+double radius;
+double area;
+String input;
+
+Console.WriteLine("Enter a radius: ");
+input = Console.ReadLine();
+radius = double.Parse(input);
+area = System.Math.PI * Math.Pow(radius, 2);
+
+Console.WriteLine("The area of a circle with radius of " + radius + " is: " + area);
